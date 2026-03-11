@@ -59,3 +59,7 @@ Goal: Book a flight to NYC tomorrow
 [EXECUTE] Enter travel dates
 ...
 ```
+
+## License
+
+MIT
