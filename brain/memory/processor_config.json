@@ -1,0 +1,45 @@
+{
+  "_comment": "Cortex Processor configuration for the 3-layer defense system",
+  "_version": "1.0",
+  "_last_updated": "2026-01-29",
+  
+  "timeouts": {
+    "symbolic_ms": 50,
+    "structural_ms": 500,
+    "visual_ms": 5000
+  },
+  
+  "confidence_thresholds": {
+    "symbolic_min": 0.7,
+    "structural_min": 0.6,
+    "visual_min": 0.5
+  },
+  
+  "learning": {
+    "enabled": true,
+    "success_reward": 0.1,
+    "failure_penalty": 0.2,
+    "confidence_decay_rate": 0.01,
+    "min_confidence": 0.1,
+    "max_confidence": 1.0
+  },
+  
+  "fallback": {
+    "enable_structural": true,
+    "enable_visual": true,
+    "request_demo_on_total_failure": true,
+    "max_retries_per_layer": 2
+  },
+  
+  "cache": {
+    "enable_element_cache": true,
+    "cache_ttl_seconds": 300,
+    "max_cache_entries": 500
+  },
+  
+  "debug": {
+    "log_all_attempts": true,
+    "screenshot_on_failure": false,
+    "verbose_output": false
+  }
+}

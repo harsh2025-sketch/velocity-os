@@ -1,0 +1,115 @@
+{
+  "demo_type": "youtube_downloader",
+  "executions": [
+    {
+      "intent": "download cute cats compilation",
+      "steps": [
+        {
+          "step": "symbolic_parse",
+          "intent": "download cute cats compilation",
+          "cluster": "download:youtube",
+          "matched_skills": [
+            "youtube_search",
+            "youtube_download"
+          ],
+          "confidence": 0.9,
+          "latency_ms": 0,
+          "success": true,
+          "layer": "symbolic"
+        },
+        {
+          "step": "structural_search",
+          "query": "cute cats compilation",
+          "elements_found": 3,
+          "actions": [
+            {
+              "action": "click_element",
+              "target": "chrome_address_bar"
+            },
+            {
+              "action": "type_text",
+              "text": "youtube.com"
+            },
+            {
+              "action": "click_element",
+              "target": "youtube_search_box"
+            },
+            {
+              "action": "type_text",
+              "text": "cute cats compilation"
+            },
+            {
+              "action": "key_press",
+              "key": "return"
+            }
+          ],
+          "latency_ms": 0,
+          "success": true,
+          "layer": "structural"
+        },
+        {
+          "step": "visual_verify",
+          "query": "cute cats compilation",
+          "method": "template_match_cached",
+          "template_found": true,
+          "confidence": 0.85,
+          "vlm_fallback_used": false,
+          "latency_ms": 0,
+          "success": true,
+          "layer": "visual"
+        },
+        {
+          "step": "execute_download",
+          "skill": "youtube_search_download",
+          "sub_steps": [
+            {
+              "action": "click_element",
+              "target": "video_thumbnail",
+              "confidence": 0.95,
+              "success": true
+            },
+            {
+              "action": "click_element",
+              "target": "download_button",
+              "confidence": 0.88,
+              "success": true
+            },
+            {
+              "action": "select_quality",
+              "target": "720p",
+              "confidence": 0.9,
+              "success": true
+            }
+          ],
+          "latency_ms": 0,
+          "success": true,
+          "layer": "action"
+        },
+        {
+          "step": "record_learning",
+          "execution_success": true,
+          "skill_updated": "youtube_search_download",
+          "confidence_before": 0.85,
+          "confidence_after": 0.95,
+          "confidence_delta": 0.1,
+          "algorithm": "AFML",
+          "latency_ms": 0,
+          "success": true,
+          "layer": "learning"
+        }
+      ],
+      "success": true,
+      "final_confidence": 0.5,
+      "latency_ms": 0
+    }
+  ],
+  "algorithms_demonstrated": [
+    "AFML",
+    "CLL",
+    "ICSH",
+    "PLS",
+    "RSC",
+    "TCA",
+    "FMR"
+  ]
+}

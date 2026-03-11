@@ -1,0 +1,131 @@
+{
+  "_comment": "Universal OS-level shortcuts that never fail (100% confidence)",
+  "_version": "1.0",
+  "_last_updated": "2026-01-29",
+  
+  "copy": {
+    "hotkey": "ctrl+c",
+    "confidence": 1.0,
+    "universal": true,
+    "description": "Copy selected text/item to clipboard"
+  },
+  
+  "paste": {
+    "hotkey": "ctrl+v",
+    "confidence": 1.0,
+    "universal": true,
+    "description": "Paste clipboard content"
+  },
+  
+  "cut": {
+    "hotkey": "ctrl+x",
+    "confidence": 1.0,
+    "universal": true,
+    "description": "Cut selected text/item to clipboard"
+  },
+  
+  "save": {
+    "hotkey": "ctrl+s",
+    "confidence": 1.0,
+    "universal": true,
+    "description": "Save current document"
+  },
+  
+  "save_as": {
+    "hotkey": "ctrl+shift+s",
+    "confidence": 0.95,
+    "universal": true,
+    "description": "Save with new name/location"
+  },
+  
+  "undo": {
+    "hotkey": "ctrl+z",
+    "confidence": 1.0,
+    "universal": true,
+    "description": "Undo last action"
+  },
+  
+  "redo": {
+    "hotkey": "ctrl+y",
+    "confidence": 1.0,
+    "universal": true,
+    "description": "Redo last undone action"
+  },
+  
+  "select_all": {
+    "hotkey": "ctrl+a",
+    "confidence": 1.0,
+    "universal": true,
+    "description": "Select all content"
+  },
+  
+  "find": {
+    "hotkey": "ctrl+f",
+    "confidence": 1.0,
+    "universal": true,
+    "description": "Open find/search dialog"
+  },
+  
+  "print": {
+    "hotkey": "ctrl+p",
+    "confidence": 1.0,
+    "universal": true,
+    "description": "Open print dialog"
+  },
+  
+  "new_document": {
+    "hotkey": "ctrl+n",
+    "confidence": 0.95,
+    "universal": true,
+    "description": "Create new document/file"
+  },
+  
+  "open_file": {
+    "hotkey": "ctrl+o",
+    "confidence": 0.95,
+    "universal": true,
+    "description": "Open file dialog"
+  },
+  
+  "close_window": {
+    "hotkey": "alt+f4",
+    "confidence": 1.0,
+    "universal": true,
+    "description": "Close active window"
+  },
+  
+  "close_tab": {
+    "hotkey": "ctrl+w",
+    "confidence": 0.98,
+    "universal": true,
+    "description": "Close active tab"
+  },
+  
+  "switch_window": {
+    "hotkey": "alt+tab",
+    "confidence": 1.0,
+    "universal": true,
+    "description": "Switch between open windows"
+  },
+  
+  "minimize_window": {
+    "hotkey": "win+down",
+    "confidence": 1.0,
+    "universal": true,
+    "description": "Minimize active window"
+  },
+  
+  "maximize_window": {
+    "hotkey": "win+up",
+    "confidence": 1.0,
+    "universal": true,
+    "description": "Maximize active window"
+  },
+  
+  "show_desktop": {
+    "hotkey": "win+d",
+    "confidence": 1.0,
+    "universal": true,
+    "description": "Show/hide desktop"
+  }
+}

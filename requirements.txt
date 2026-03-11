@@ -1,0 +1,40 @@
+# CORE AI
+ollama
+
+# DATABASE & MEMORY
+chromadb
+
+# VISION & PROCESSING
+mss
+opencv-python
+numpy
+
+# UTILS
+pyyaml
+
+# VELOCITY A-OS - SENSORY SUBSYSTEM DEPENDENCIES
+
+# Vision
+yolov8>=8.0.0
+ultralytics>=8.0.0
+paddleocr>=2.7.0
+paddlepaddle>=2.5.0
+pytesseract>=0.3.0
+
+# Audio/Speech
+faster-whisper>=1.0.0
+piper-tts>=1.0.0
+silero-vad>=4.0.0
+
+# Environment
+mediapipe>=0.10.0
+opencv-contrib-python>=4.8.0
+
+# Web Scraping
+crawl4ai>=0.1.0
+beautifulsoup4>=4.12.0
+selenium>=4.0.0
+
+# Embeddings & Semantic Search
+sentence-transformers>=2.2.0
+torch>=2.0.0

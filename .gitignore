@@ -1,0 +1,64 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache/artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Logs and runtime files
+*.log
+*.pid
+*.out
+*.err
+
+# Local env/config with secrets
+.env
+.env.*
+*.local
+*.secret
+*.secrets
+*.token
+*.key
+*.pem
+*.p12
+*.pfx
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build/dist artifacts
+build/
+dist/
+*.egg-info/
+
+# C/C++/CMake build outputs
+**/CMakeFiles/
+**/CMakeCache.txt
+**/cmake_install.cmake
+**/Makefile
+**/*.obj
+**/*.o
+**/*.a
+**/*.so
+**/*.dll
+**/*.exe
+
+# Optional large local data/cache
+models/
+cache/

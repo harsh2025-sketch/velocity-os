@@ -1,0 +1,184 @@
+{
+  "_comment": "Learned application behaviors with RL confidence scores",
+  "_version": "1.0",
+  "_last_updated": "2026-01-29",
+  "_schema": {
+    "skill_id": {
+      "app": "Application name",
+      "description": "Human-readable skill description",
+      "aliases": [
+        "alternative",
+        "names"
+      ],
+      "methods": [
+        {
+          "type": "symbolic | structural | visual",
+          "action": "hotkey | click_element | click_coords_vlm | type_text",
+          "confidence": "0.0-1.0 (RL-updated)",
+          "success_count": 0,
+          "fail_count": 0,
+          "avg_latency_ms": 0
+        }
+      ]
+    }
+  },
+  "_clusters": {
+    "play:spotify": [
+      "spotify_play_pause"
+    ],
+    "open:chrome": [
+      "chrome_new_tab"
+    ],
+    "close:chrome": [
+      "chrome_close_tab"
+    ],
+    "reload:chrome": [
+      "chrome_reload"
+    ],
+    "save:vscode": [
+      "vscode_save_all"
+    ],
+    "command:vscode": [
+      "vscode_command_palette"
+    ]
+  },
+  "spotify_play_pause": {
+    "app": "Spotify",
+    "description": "Play or pause current track",
+    "aliases": [
+      "play",
+      "pause",
+      "play spotify",
+      "pause spotify"
+    ],
+    "methods": [
+      {
+        "type": "symbolic",
+        "action": "hotkey",
+        "key": "space",
+        "confidence": 1.0,
+        "success_count": 9,
+        "fail_count": 0,
+        "avg_latency_ms": 10
+      },
+      {
+        "type": "structural",
+        "action": "click_element",
+        "target": "Play Button",
+        "confidence": 0.85,
+        "success_count": 0,
+        "fail_count": 0,
+        "avg_latency_ms": 100
+      },
+      {
+        "type": "visual",
+        "action": "click_coords_vlm",
+        "description": "green play button",
+        "confidence": 0.7,
+        "success_count": 0,
+        "fail_count": 0,
+        "avg_latency_ms": 2000
+      }
+    ],
+    "cross_layer_hints": {
+      "visual_template": {
+        "screenshot": "YWJj",
+        "timestamp": "2026-02-01T18:36:59.759636",
+        "confidence": 0.7,
+        "use_count": 1
+      }
+    }
+  },
+  "chrome_new_tab": {
+    "app": "Chrome",
+    "description": "Open new browser tab",
+    "aliases": [
+      "new tab",
+      "open tab"
+    ],
+    "methods": [
+      {
+        "type": "symbolic",
+        "action": "hotkey",
+        "key": "ctrl+t",
+        "confidence": 1.0,
+        "success_count": 1,
+        "fail_count": 0,
+        "avg_latency_ms": 8
+      }
+    ]
+  },
+  "chrome_close_tab": {
+    "app": "Chrome",
+    "description": "Close current tab",
+    "aliases": [
+      "close tab"
+    ],
+    "methods": [
+      {
+        "type": "symbolic",
+        "action": "hotkey",
+        "key": "ctrl+w",
+        "confidence": 1.0,
+        "success_count": 0,
+        "fail_count": 0,
+        "avg_latency_ms": 8
+      }
+    ]
+  },
+  "chrome_reload": {
+    "app": "Chrome",
+    "description": "Reload current page",
+    "aliases": [
+      "reload",
+      "refresh"
+    ],
+    "methods": [
+      {
+        "type": "symbolic",
+        "action": "hotkey",
+        "key": "ctrl+r",
+        "confidence": 1.0,
+        "success_count": 0,
+        "fail_count": 0,
+        "avg_latency_ms": 8
+      }
+    ]
+  },
+  "vscode_save_all": {
+    "app": "Visual Studio Code",
+    "description": "Save all open files",
+    "aliases": [
+      "save all files"
+    ],
+    "methods": [
+      {
+        "type": "symbolic",
+        "action": "hotkey",
+        "key": "ctrl+k s",
+        "confidence": 0.98,
+        "success_count": 0,
+        "fail_count": 0,
+        "avg_latency_ms": 10
+      }
+    ]
+  },
+  "vscode_command_palette": {
+    "app": "Visual Studio Code",
+    "description": "Open command palette",
+    "aliases": [
+      "command palette"
+    ],
+    "methods": [
+      {
+        "type": "symbolic",
+        "action": "hotkey",
+        "key": "ctrl+shift+p",
+        "confidence": 1.0,
+        "success_count": 0,
+        "fail_count": 0,
+        "avg_latency_ms": 8
+      }
+    ]
+  }
+}

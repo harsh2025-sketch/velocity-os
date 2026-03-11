@@ -1,0 +1,668 @@
+{
+  "_comment": "Performance logs for debugging and RL optimization",
+  "_version": "1.0",
+  "_last_updated": "2026-01-29",
+  "_max_entries": 1000,
+  "_schema": {
+    "timestamp": "ISO timestamp",
+    "intent": "User's original command",
+    "skill_id": "Matched skill from skills.json",
+    "method_used": "symbolic | structural | visual",
+    "latency_ms": 0,
+    "success": true,
+    "error": "Error message if failed"
+  },
+  "executions": [
+    {
+      "timestamp": 1769949330.6887214,
+      "intent": "unknown task",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 149,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769949576.7044787,
+      "intent": "unknown task",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 0,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769949588.6602948,
+      "intent": "play spotify",
+      "skill_id": "spotify_play_pause",
+      "method_used": "symbolic",
+      "latency_ms": 0,
+      "success": true
+    },
+    {
+      "timestamp": 1769949588.6653001,
+      "intent": "do something unknown",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 0,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769949764.952527,
+      "intent": "unknown task",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 0,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769949923.3548682,
+      "intent": "unknown task",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 0,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769949954.913585,
+      "intent": "test log intent",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 0,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769949969.929514,
+      "intent": "test",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 0,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769949991.2506168,
+      "intent": "test intent",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 1,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769950022.1459365,
+      "intent": "unknown task",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 0,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769950022.5083785,
+      "intent": "",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 0,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769950022.5103664,
+      "intent": "open chrome",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 0,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769950022.5353715,
+      "intent": "new tab",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 0,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769950022.5641966,
+      "intent": "test intent",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 0,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769950022.592341,
+      "intent": "xyzabc123_impossible_intent",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 0,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769950022.6223292,
+      "intent": "open chrome",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 0,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769950022.652331,
+      "intent": "play spotify",
+      "skill_id": "spotify_play_pause",
+      "method_used": "symbolic",
+      "latency_ms": 0,
+      "success": true
+    },
+    {
+      "timestamp": 1769950022.68034,
+      "intent": "close tab",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 0,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769950022.7105849,
+      "intent": "find something",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 0,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769950022.7425675,
+      "intent": "test log intent",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 0,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769950022.7705667,
+      "intent": "another test",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 0,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769950022.800565,
+      "intent": "play music",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 0,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769950022.8305697,
+      "intent": "click button",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 0,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769950022.8685658,
+      "intent": "find text",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 0,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769950022.8996503,
+      "intent": "intent 0",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 0,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769950022.9266531,
+      "intent": "intent 1",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 1,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769950022.9536626,
+      "intent": "intent 2",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 1,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769950022.9819882,
+      "intent": "intent 3",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 0,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769950023.015992,
+      "intent": "intent 4",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 0,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769950023.065987,
+      "intent": "play spotify",
+      "skill_id": "spotify_play_pause",
+      "method_used": "symbolic",
+      "latency_ms": 0,
+      "success": true
+    },
+    {
+      "timestamp": 1769950023.097931,
+      "intent": "do something unknown",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 0,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769950343.0351927,
+      "intent": "unknown task",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 0,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769950343.4214594,
+      "intent": "",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 0,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769950343.42346,
+      "intent": "open chrome",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 0,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769950343.4604607,
+      "intent": "new tab",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 0,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769950343.499535,
+      "intent": "test intent",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 0,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769950343.5215297,
+      "intent": "xyzabc123_impossible_intent",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 0,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769950343.55471,
+      "intent": "open chrome",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 0,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769950343.594222,
+      "intent": "play spotify",
+      "skill_id": "spotify_play_pause",
+      "method_used": "symbolic",
+      "latency_ms": 0,
+      "success": true
+    },
+    {
+      "timestamp": 1769950343.629505,
+      "intent": "close tab",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 0,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769950343.66551,
+      "intent": "find something",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 0,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769950343.698511,
+      "intent": "test log intent",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 0,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769950343.7365215,
+      "intent": "another test",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 0,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769950343.779691,
+      "intent": "play music",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 0,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769950343.8156898,
+      "intent": "click button",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 0,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769950343.853411,
+      "intent": "find text",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 0,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769950343.8833392,
+      "intent": "intent 0",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 0,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769950343.914322,
+      "intent": "intent 1",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 0,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769950343.9483666,
+      "intent": "intent 2",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 0,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769950343.9814138,
+      "intent": "intent 3",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 0,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769950344.021789,
+      "intent": "intent 4",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 0,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769951219.8505821,
+      "intent": "unknown task",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 0,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769951219.9877365,
+      "intent": "",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 0,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769951220.0307846,
+      "intent": "open chrome",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 0,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769951220.0781322,
+      "intent": "new tab",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 1,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769951220.1221354,
+      "intent": "test intent",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 0,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769951220.1681356,
+      "intent": "xyzabc123_impossible_intent",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 0,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769951220.2121308,
+      "intent": "open chrome",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 0,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769951220.2501376,
+      "intent": "play spotify",
+      "skill_id": "spotify_play_pause",
+      "method_used": "symbolic",
+      "latency_ms": 0,
+      "success": true
+    },
+    {
+      "timestamp": 1769951220.290129,
+      "intent": "close tab",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 0,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769951220.3321302,
+      "intent": "find something",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 0,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769951220.373244,
+      "intent": "test log intent",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 0,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769951220.4142282,
+      "intent": "another test",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 0,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769951220.458294,
+      "intent": "play music",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 0,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769951220.5032294,
+      "intent": "click button",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 0,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769951220.5557127,
+      "intent": "find text",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 0,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769951220.6027105,
+      "intent": "intent 0",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 0,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769951220.6447103,
+      "intent": "intent 1",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 0,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769951220.685715,
+      "intent": "intent 2",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 0,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769951220.7217095,
+      "intent": "intent 3",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 0,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769951220.7617712,
+      "intent": "intent 4",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 0,
+      "success": false,
+      "error": "unknown"
+    },
+    {
+      "timestamp": 1769951220.8161013,
+      "intent": "play spotify",
+      "skill_id": "spotify_play_pause",
+      "method_used": "symbolic",
+      "latency_ms": 0,
+      "success": true
+    },
+    {
+      "timestamp": 1769951220.8702652,
+      "intent": "do something unknown",
+      "skill_id": "unknown",
+      "method_used": "none",
+      "latency_ms": 0,
+      "success": false,
+      "error": "unknown"
+    }
+  ]
+}

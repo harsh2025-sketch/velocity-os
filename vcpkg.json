@@ -1,0 +1,36 @@
+{
+  "name": "velocity-cortex",
+  "version": "1.0.0",
+  "description": "C++ Hybrid Intelligence Brain - Embedded LLM, Vision, and Audio",
+  "license": "MIT",
+  "dependencies": [
+    {
+      "name": "llama-cpp",
+      "version>=": "1.0.0"
+    },
+    {
+      "name": "opencv",
+      "version>=": "4.8.0"
+    },
+    {
+      "name": "tesseract",
+      "version>=": "5.0.0"
+    },
+    {
+      "name": "portaudio",
+      "version>=": "19.7.0"
+    },
+    {
+      "name": "nlohmann-json",
+      "version>=": "3.11.0"
+    },
+    {
+      "name": "spdlog",
+      "version>=": "1.12.0"
+    },
+    {
+      "name": "boost",
+      "version>=": "1.82.0"
+    }
+  ]
+}

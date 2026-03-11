@@ -1,0 +1,38 @@
+{
+  "_comment": "Predictive Layer Selection (PLS) success probabilities",
+  "_version": "1.0",
+  "_last_updated": "2026-02-01",
+  "Notepad": {
+    "find": {
+      "symbolic": 0.4,
+      "structural": 0.95,
+      "visual": 0.7
+    }
+  },
+  "Chrome": {
+    "new_tab": {
+      "symbolic": 1.0,
+      "structural": 0.8,
+      "visual": 0.6
+    },
+    "search": {
+      "symbolic": 0.7,
+      "structural": 0.7,
+      "visual": 0.7
+    }
+  },
+  "Spotify": {
+    "play": {
+      "symbolic": 0.95,
+      "structural": 0.7,
+      "visual": 0.7
+    }
+  },
+  "Figma": {
+    "find": {
+      "symbolic": 0.1,
+      "structural": 0.15,
+      "visual": 0.85
+    }
+  }
+}

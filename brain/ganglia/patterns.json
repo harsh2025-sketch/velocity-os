@@ -1,0 +1,18 @@
+{
+    "browser": {
+        "regex": "open (chrome|browser|google)",
+        "command": "start chrome"
+    },
+    "terminal": {
+        "regex": "open (terminal|cmd|powershell)",
+        "command": "start wt || start cmd"
+    },
+    "editor": {
+        "regex": "open (code|vscode|editor)",
+        "command": "code ."
+    },
+    "files": {
+        "regex": "open (explorer|files|folders)",
+        "command": "explorer ."
+    }
+}

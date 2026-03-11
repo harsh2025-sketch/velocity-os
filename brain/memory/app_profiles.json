@@ -1,0 +1,101 @@
+{
+  "_comment": "Application metadata for context-aware decision making",
+  "_version": "1.0",
+  "_last_updated": "2026-01-29",
+  "_schema": {
+    "app_name": {
+      "executable": "app.exe",
+      "ui_framework": "Win32 | UWP | Electron | Qt | WPF",
+      "supports_ui_automation": true,
+      "preferred_method": "symbolic | structural | visual",
+      "common_shortcuts": {},
+      "notes": "Special handling instructions"
+    }
+  },
+  
+  "Spotify": {
+    "executable": "Spotify.exe",
+    "ui_framework": "Electron",
+    "supports_ui_automation": true,
+    "preferred_method": "symbolic",
+    "common_shortcuts": {
+      "play_pause": "space",
+      "next": "ctrl+right",
+      "previous": "ctrl+left",
+      "volume_up": "ctrl+up",
+      "volume_down": "ctrl+down"
+    },
+    "notes": "Hotkeys work globally even when minimized"
+  },
+  
+  "Google Chrome": {
+    "executable": "chrome.exe",
+    "ui_framework": "Custom",
+    "supports_ui_automation": true,
+    "preferred_method": "symbolic",
+    "common_shortcuts": {
+      "new_tab": "ctrl+t",
+      "close_tab": "ctrl+w",
+      "reload": "ctrl+r",
+      "hard_reload": "ctrl+shift+r",
+      "address_bar": "ctrl+l",
+      "downloads": "ctrl+j",
+      "history": "ctrl+h"
+    },
+    "notes": "Very keyboard-friendly, prefer hotkeys over UI parsing"
+  },
+  
+  "Visual Studio Code": {
+    "executable": "code.exe",
+    "ui_framework": "Electron",
+    "supports_ui_automation": true,
+    "preferred_method": "symbolic",
+    "common_shortcuts": {
+      "command_palette": "ctrl+shift+p",
+      "quick_open": "ctrl+p",
+      "save_all": "ctrl+k s",
+      "toggle_terminal": "ctrl+`",
+      "toggle_sidebar": "ctrl+b"
+    },
+    "notes": "Command palette is the universal fallback"
+  },
+  
+  "Notepad": {
+    "executable": "notepad.exe",
+    "ui_framework": "Win32",
+    "supports_ui_automation": true,
+    "preferred_method": "structural",
+    "common_shortcuts": {},
+    "notes": "Simple Win32 app, excellent UI Automation support"
+  },
+  
+  "Calculator": {
+    "executable": "calc.exe",
+    "ui_framework": "UWP",
+    "supports_ui_automation": true,
+    "preferred_method": "structural",
+    "common_shortcuts": {},
+    "notes": "Modern UWP app, buttons have clear accessibility names"
+  },
+  
+  "Figma": {
+    "executable": "Figma.exe",
+    "ui_framework": "Electron",
+    "supports_ui_automation": false,
+    "preferred_method": "visual",
+    "common_shortcuts": {
+      "undo": "ctrl+z",
+      "redo": "ctrl+shift+z"
+    },
+    "notes": "Canvas-based app, UI Automation WILL FAIL, use Vision"
+  },
+  
+  "Adobe Photoshop": {
+    "executable": "Photoshop.exe",
+    "ui_framework": "Custom",
+    "supports_ui_automation": false,
+    "preferred_method": "visual",
+    "common_shortcuts": {},
+    "notes": "Complex canvas app, prefer vision-based detection"
+  }
+}

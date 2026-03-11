@@ -1,0 +1,19 @@
+{
+  "_comment": "Cached UI element locations for performance (avoid re-parsing)",
+  "_version": "1.0",
+  "_last_updated": "2026-01-29",
+  "_schema": {
+    "AppName": {
+      "ElementName": {
+        "coords": [0, 0],
+        "bounds": {"x": 0, "y": 0, "width": 0, "height": 0},
+        "control_type": "Button | TextBox | etc",
+        "last_seen": "ISO timestamp",
+        "stable": "boolean - true if location rarely changes",
+        "hit_count": 0
+      }
+    }
+  },
+  
+  "_cache": {}
+}
