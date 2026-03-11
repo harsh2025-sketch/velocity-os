@@ -1,7 +1,9 @@
+
 # Velocity A-OS: Native Large Action Model
 
 A biological operating system that autonomously pilots your computer. Eyes, hands, brains—and the safety to match.
 
+this is an experiment to know what will happen if we give control of mouse, keybord to an ai agent how it will work.
 ## Architecture
 
 ```
